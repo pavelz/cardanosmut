@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E90F6BF62E4454F1005C7A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90F6BDE2E4454F0005C7A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90F6BE52E4454F0005C7A94;
+			remoteInfo = cardanosmut;
+		};
+		E90F6C002E4454F1005C7A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90F6BDE2E4454F0005C7A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90F6BE52E4454F0005C7A94;
+			remoteInfo = cardanosmut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E90F6BE62E4454F0005C7A94 /* cardanosmut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardanosmut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90F6BF52E4454F1005C7A94 /* cardanosmutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardanosmutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90F6BFF2E4454F1005C7A94 /* cardanosmutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardanosmutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E90F6BE82E4454F0005C7A94 /* cardanosmut */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = cardanosmut;
+			sourceTree = "<group>";
+		};
+		E90F6BF82E4454F1005C7A94 /* cardanosmutTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = cardanosmutTests;
+			sourceTree = "<group>";
+		};
+		E90F6C022E4454F1005C7A94 /* cardanosmutUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = cardanosmutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90F6BE32E4454F0005C7A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90F6BF22E4454F1005C7A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90F6BFC2E4454F1005C7A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E90F6BDD2E4454F0005C7A94 = {
+			isa = PBXGroup;
+			children = (
+				E90F6BE82E4454F0005C7A94 /* cardanosmut */,
+				E90F6BF82E4454F1005C7A94 /* cardanosmutTests */,
+				E90F6C022E4454F1005C7A94 /* cardanosmutUITests */,
+				E90F6BE72E4454F0005C7A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E90F6BE72E4454F0005C7A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90F6BE62E4454F0005C7A94 /* cardanosmut.app */,
+				E90F6BF52E4454F1005C7A94 /* cardanosmutTests.xctest */,
+				E90F6BFF2E4454F1005C7A94 /* cardanosmutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90F6BE52E4454F0005C7A94 /* cardanosmut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90F6C092E4454F1005C7A94 /* Build configuration list for PBXNativeTarget "cardanosmut" */;
+			buildPhases = (
+				E90F6BE22E4454F0005C7A94 /* Sources */,
+				E90F6BE32E4454F0005C7A94 /* Frameworks */,
+				E90F6BE42E4454F0005C7A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E90F6BE82E4454F0005C7A94 /* cardanosmut */,
+			);
+			name = cardanosmut;
+			packageProductDependencies = (
+			);
+			productName = cardanosmut;
+			productReference = E90F6BE62E4454F0005C7A94 /* cardanosmut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E90F6BF42E4454F1005C7A94 /* cardanosmutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90F6C0C2E4454F1005C7A94 /* Build configuration list for PBXNativeTarget "cardanosmutTests" */;
+			buildPhases = (
+				E90F6BF12E4454F1005C7A94 /* Sources */,
+				E90F6BF22E4454F1005C7A94 /* Frameworks */,
+				E90F6BF32E4454F1005C7A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90F6BF72E4454F1005C7A94 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E90F6BF82E4454F1005C7A94 /* cardanosmutTests */,
+			);
+			name = cardanosmutTests;
+			packageProductDependencies = (
+			);
+			productName = cardanosmutTests;
+			productReference = E90F6BF52E4454F1005C7A94 /* cardanosmutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E90F6BFE2E4454F1005C7A94 /* cardanosmutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90F6C0F2E4454F1005C7A94 /* Build configuration list for PBXNativeTarget "cardanosmutUITests" */;
+			buildPhases = (
+				E90F6BFB2E4454F1005C7A94 /* Sources */,
+				E90F6BFC2E4454F1005C7A94 /* Frameworks */,
+				E90F6BFD2E4454F1005C7A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90F6C012E4454F1005C7A94 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E90F6C022E4454F1005C7A94 /* cardanosmutUITests */,
+			);
+			name = cardanosmutUITests;
+			packageProductDependencies = (
+			);
+			productName = cardanosmutUITests;
+			productReference = E90F6BFF2E4454F1005C7A94 /* cardanosmutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90F6BDE2E4454F0005C7A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E90F6BE52E4454F0005C7A94 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E90F6BF42E4454F1005C7A94 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E90F6BE52E4454F0005C7A94;
+					};
+					E90F6BFE2E4454F1005C7A94 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E90F6BE52E4454F0005C7A94;
+					};
+				};
+			};
+			buildConfigurationList = E90F6BE12E4454F0005C7A94 /* Build configuration list for PBXProject "cardanosmut" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E90F6BDD2E4454F0005C7A94;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E90F6BE72E4454F0005C7A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90F6BE52E4454F0005C7A94 /* cardanosmut */,
+				E90F6BF42E4454F1005C7A94 /* cardanosmutTests */,
+				E90F6BFE2E4454F1005C7A94 /* cardanosmutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90F6BE42E4454F0005C7A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90F6BF32E4454F1005C7A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90F6BFD2E4454F1005C7A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90F6BE22E4454F0005C7A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90F6BF12E4454F1005C7A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90F6BFB2E4454F1005C7A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E90F6BF72E4454F1005C7A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90F6BE52E4454F0005C7A94 /* cardanosmut */;
+			targetProxy = E90F6BF62E4454F1005C7A94 /* PBXContainerItemProxy */;
+		};
+		E90F6C012E4454F1005C7A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90F6BE52E4454F0005C7A94 /* cardanosmut */;
+			targetProxy = E90F6C002E4454F1005C7A94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E90F6C072E4454F1005C7A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S95Q96986P;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E90F6C082E4454F1005C7A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = S95Q96986P;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90F6C0A2E4454F1005C7A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S95Q96986P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.cardanosmut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E90F6C0B2E4454F1005C7A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S95Q96986P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.cardanosmut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E90F6C0D2E4454F1005C7A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S95Q96986P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.cardanosmutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardanosmut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cardanosmut";
+			};
+			name = Debug;
+		};
+		E90F6C0E2E4454F1005C7A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S95Q96986P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.cardanosmutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardanosmut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cardanosmut";
+			};
+			name = Release;
+		};
+		E90F6C102E4454F1005C7A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S95Q96986P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.cardanosmutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cardanosmut;
+			};
+			name = Debug;
+		};
+		E90F6C112E4454F1005C7A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S95Q96986P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.cardanosmutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cardanosmut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90F6BE12E4454F0005C7A94 /* Build configuration list for PBXProject "cardanosmut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90F6C072E4454F1005C7A94 /* Debug */,
+				E90F6C082E4454F1005C7A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90F6C092E4454F1005C7A94 /* Build configuration list for PBXNativeTarget "cardanosmut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90F6C0A2E4454F1005C7A94 /* Debug */,
+				E90F6C0B2E4454F1005C7A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90F6C0C2E4454F1005C7A94 /* Build configuration list for PBXNativeTarget "cardanosmutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90F6C0D2E4454F1005C7A94 /* Debug */,
+				E90F6C0E2E4454F1005C7A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90F6C0F2E4454F1005C7A94 /* Build configuration list for PBXNativeTarget "cardanosmutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90F6C102E4454F1005C7A94 /* Debug */,
+				E90F6C112E4454F1005C7A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90F6BDE2E4454F0005C7A94 /* Project object */;
+}

@@ -30,9 +30,9 @@ struct ContentView: View {
                 }
                 ToolbarItem {
                     Button(action: addItem) {
-                        Label("Add Funds", systemImage: "bolt.horizontal.icloud.fill")
+                        Label("Add Funds", systemImage: "bopaperplane.circle ")
                     }
-                }
+                }   
             }
         } detail: {
             Text("Select an transaction")

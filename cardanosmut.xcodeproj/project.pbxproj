@@ -195,6 +195,9 @@
 			);
 			mainGroup = E90F6BDD2E4454F0005C7A94;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E9B63E4E2E457E3D00D869C8 /* XCRemoteSwiftPackageReference "CardanoKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E90F6BE72E4454F0005C7A94 /* Products */;
 			projectDirPath = "";
@@ -558,6 +561,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9B63E4E2E457E3D00D869C8 /* XCRemoteSwiftPackageReference "CardanoKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TokeoPay/CardanoKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = E90F6BDE2E4454F0005C7A94 /* Project object */;
 }

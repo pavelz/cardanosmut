@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E958E5CE2E470B99007AD692 /* CardanoKit in Frameworks */ = {isa = PBXBuildFile; productRef = E958E5CD2E470B99007AD692 /* CardanoKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E90F6BF62E4454F1005C7A94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E958E5CE2E470B99007AD692 /* CardanoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				E90F6BE82E4454F0005C7A94 /* cardanosmut */,
 				E90F6BF82E4454F1005C7A94 /* cardanosmutTests */,
 				E90F6C022E4454F1005C7A94 /* cardanosmutUITests */,
+				E958E5CC2E470B99007AD692 /* Frameworks */,
 				E90F6BE72E4454F0005C7A94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				E90F6BFF2E4454F1005C7A94 /* cardanosmutUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E958E5CC2E470B99007AD692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = cardanosmut;
 			packageProductDependencies = (
+				E958E5CD2E470B99007AD692 /* CardanoKit */,
 			);
 			productName = cardanosmut;
 			productReference = E90F6BE62E4454F0005C7A94 /* cardanosmut.app */;
@@ -572,6 +586,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E958E5CD2E470B99007AD692 /* CardanoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9B63E4E2E457E3D00D869C8 /* XCRemoteSwiftPackageReference "CardanoKit" */;
+			productName = CardanoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E90F6BDE2E4454F0005C7A94 /* Project object */;
 }

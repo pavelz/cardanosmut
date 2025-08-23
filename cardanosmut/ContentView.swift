@@ -36,6 +36,7 @@ struct ContentView: View {
             }
         } detail: {
             Text("Select an transaction")
+                .foregroundColor(.red)
         }
     }
 
@@ -59,3 +60,4 @@ struct ContentView: View {
     ContentView()
         .modelContainer(for: Item.self, inMemory: true)
 }
+
